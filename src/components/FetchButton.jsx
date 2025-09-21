@@ -3,7 +3,7 @@
 const FetchButton = ({ fetchJoke }) => {
   return (
     // Step 2: Add an onClick event that calls `fetchJoke`
-    <button className="fetch-button">Get a New Joke</button>
+    <button className="fetch-button" onClick={fetchJoke}>Get a New Joke</button>
   )
 }
 
